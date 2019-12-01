@@ -55,7 +55,7 @@ To generate keywords required to train the model.
 LSTM model implementation to generate question sentence from the input keywords.
 
 Sample Output: 
-Input sentence: ticking sound alternator starter battery
+Input sentence: ticking sound alternator starter battery<br/>
 Decoded sentence: what to human part of the the battery is the battery
 
 Input sentence: measurement is speed wind measured
