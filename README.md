@@ -8,7 +8,7 @@ The whole project of Question Answer pairs generation has fallen into three vita
 Initially, the knowledge graph will be in RDF format. So, we had to preprocess the file containing RDF triples with URI links by removing the URI links and extracted the values like subject, predicate, object and predicate’s domain and range.
 From these values, we made sure that process only unique predicates. We extracted unique subject, predicate and object, predicate pairs
 
-Before processing, the data is in RDF format
+Before processing, the data is in RDF format<br/>
 <http://rdf.freebase.com/ns/american_football.football_player.footballdb_id>    <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/type.property> <http://rdf.freebase.com/ns/american_football.football_player.footballdb_id>	<domain>	<http://rdf.freebase.com/ns/american_football.football_player> 
 <http://rdf.freebase.com/ns/american_football.football_player.footballdb_id>	<range>	<type.enumeration>
 <http://rdf.freebase.com/ns/m.01001tl3>  <http://rdf.freebase.com/ns/music.recording.artist>        <http://rdf.freebase.com/ns/m.01s7hcz>
@@ -54,24 +54,24 @@ To generate keywords required to train the model.
 #### modelrnnlstm.IPYNB
 LSTM model implementation to generate question sentence from the input keywords.
 
-Sample Output: 
+Sample Output:<br/>
 Input sentence: ticking sound alternator starter battery<br/>
-Decoded sentence: what to human part of the the battery is the battery
+Decoded sentence: what to human part of the the battery is the battery<br/><br/>
 
-Input sentence: measurement is speed wind measured
-Decoded sentence: what measurement is wind speed measured east and in parallel what
+Input sentence: measurement is speed wind measured<br/>
+Decoded sentence: what measurement is wind speed measured east and in parallel what<br/><br/>
 
-Input sentence: jim morrison died
-Decoded sentence: jim jordans baseball what the s _END
+Input sentence: jim morrison died<br/>
+Decoded sentence: jim jordans baseball what the s _END <br/><br/>
 
-Input sentence: mexico bigger australia
-Decoded sentence: how much can chemistry be considered in water _END
+Input sentence: mexico bigger australia<br/>
+Decoded sentence: how much can chemistry be considered in water _END<br/><br/>
 
-Input sentence: teachings muslim influenced arts
-Decoded sentence: cool quad procedures of flower in a and life in spain
+Input sentence: teachings muslim influenced arts<br/>
+Decoded sentence: cool quad procedures of flower in a and life in spain<br/><br/>
 
-Input sentence: bacterial infections cause cancer
-Decoded sentence: how chemistry is a creme brulee in _END
+Input sentence: bacterial infections cause cancer<br/>
+Decoded sentence: how chemistry is a creme brulee in _END<br/><br/>
 
-Input sentence: man loves woman
-Decoded sentence: about a soldier wear for a _END
+Input sentence: man loves woman<br/>
+Decoded sentence: about a soldier wear for a _END<br/><br/>
