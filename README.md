@@ -7,12 +7,13 @@ The whole project of Question Answer pairs generation has fallen into three vita
 	We have done the following steps for preprocessing the knowledge graph. 
 Initially, the knowledge graph will be in RDF format. So, we had to preprocess the file containing RDF triples with URI links by removing the URI links and extracted the values like subject, predicate, object and predicate’s domain and range.
 From these values, we made sure that process only unique predicates. We extracted unique subject, predicate and object, predicate pairs
-
+<br/>
 Before processing, the data is in RDF format<br/>
 <http://rdf.freebase.com/ns/american_football.football_player.footballdb_id>    <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/type.property> <http://rdf.freebase.com/ns/american_football.football_player.footballdb_id>	<domain>	<http://rdf.freebase.com/ns/american_football.football_player> 
 <http://rdf.freebase.com/ns/american_football.football_player.footballdb_id>	<range>	<type.enumeration>
 <http://rdf.freebase.com/ns/m.01001tl3>  <http://rdf.freebase.com/ns/music.recording.artist>        <http://rdf.freebase.com/ns/m.01s7hcz>
-And here is how Processed Data is -
+
+And here is how Processed Data is -<br/>
 Predicate List - <br/>
 <american_football.football_player.footballdb_id>  <br/>
 Domains and Ranges -   <br/>
