@@ -13,13 +13,13 @@ Before processing, the data is in RDF format<br/>
 <http://rdf.freebase.com/ns/american_football.football_player.footballdb_id>	<range>	<type.enumeration>
 <http://rdf.freebase.com/ns/m.01001tl3>  <http://rdf.freebase.com/ns/music.recording.artist>        <http://rdf.freebase.com/ns/m.01s7hcz>
 And here is how Processed Data is -
-Predicate List -
-<american_football.football_player.footballdb_id>  
-Domains and Ranges -   
-<american_football.football_player.footballdb_id>	<domain>	<american_football.football_player> 
-<american_football.football_player.footballdb_id>	<range>	<type.enumeration>
-Subject Predicate Object -
-<m.01001tl3>  <music.recording.artist>        <m.01s7hcz>	
+Predicate List - <br/>
+<american_football.football_player.footballdb_id>  <br/>
+Domains and Ranges -   <br/>
+<american_football.football_player.footballdb_id>	<domain>	<american_football.football_player> <br/>
+<american_football.football_player.footballdb_id>	<range>	<type.enumeration><br/>
+Subject Predicate Object -<br/>
+<m.01001tl3>  <music.recording.artist>        <m.01s7hcz>	<br/>
 
 ### 2. Approach to generate QA pair for an Entity E -
 #### QuestionKeywords_AnswerExtractor.IPYNB
@@ -33,16 +33,16 @@ Given a predicate pi, let sub(pi) be the subject of pi and obj(pi) be the object
 Unique Forward Relation
 Unique Reverse Relation
 
-Question Answer Keywords are generated as follows - 
-Cantata misericordium, op. 69   form    compositional_form      Cantata
-Тацу    recording       release_track   Тацу
-С тобой и без тебя      release release_track   Тацу
-Over You        canonical_version       recording       Over You
-Jay Nash        artist  recording       Over You
-Dirty   release release Generation
-Generation      release release_track   Dirty
-Auf die Zechn-Tanz      composer        composer        Peter Havlicek
-Peter Havlicek  composer        composition     Auf die Zechn-Tanz
+Question Answer Keywords are generated as follows - <br/>
+Cantata misericordium, op. 69   form    compositional_form      Cantata<br/>
+Тацу    recording       release_track   Тацу<br/>
+С тобой и без тебя      release release_track   Тацу<br/>
+Over You        canonical_version       recording       Over You<br/>
+Jay Nash        artist  recording       Over You<br/>
+Dirty   release release Generation<br/>
+Generation      release release_track   Dirty<br/>
+Auf die Zechn-Tanz      composer        composer        Peter Havlicek<br/>
+Peter Havlicek  composer        composition     Auf die Zechn-Tanz<br/>
 
 ### 3. RNN based Natural Language Question Generator - 
 
